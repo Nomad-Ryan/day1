@@ -1,0 +1,51 @@
+.container{
+    width: 800px;
+    height: 500px;
+    background: #f7f8f9;
+    -webkit-box-shadow: inset hoff voff blur #000;
+    -moz-box-shadow: inset hoff voff blur #000;
+    box-shadow: 1px 2px 20px rgba(0, 0, 0, 0.2);
+    margin: 100px auto;
+    display: flex;
+}
+.col{
+    border: 1px solid #000;
+    width: 50%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.col .box{
+    border: 1px solid #000;
+    flex: 1;
+    padding: 10px;
+
+}
+.col .box4 {
+    display: flex;
+}
+
+.box1{
+    background: #ffffff;
+}
+.box1 p{
+    margin: 20px 0 30px;
+}
+.box2{
+    background: #ffd24c;
+    margin-top: 10px;
+}
+.box3{
+    background: #ff3796;
+}
+.box4{
+    background: #9469ff;
+    margin-top: 10px
+}
+.box5{
+    background: #68d3ff;
+    margin-right: 10px;
+}
+.box6{
+    background: #49ff39;
+}
