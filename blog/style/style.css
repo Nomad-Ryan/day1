@@ -1,6 +1,7 @@
 .container{
     width: 1100px;
     margin: 0 auto;
+
 }
 #header{
     height: 70px;
@@ -9,38 +10,38 @@
     left: 0;
     z-index: 1000;
     width: 100%;
-
 }
 #header .container{
-    display: flex;
     height: 70px;
+    display: flex;
     align-items: center;
 }
 #header .logo{
     margin-right: 100px;
-    color: #ffffff;
+
 }
-
-
-#header nav {
-    flex: 1;
+#header .logo a{
+    color: #ffffff;
+    font-size: 25px;
+}
+#header nav{
+   flex: 1 ;
     display: flex;
     justify-content: flex-end;
 }
-
 #header nav ul{
     display: flex;
 }
 #header nav .nav-item{
 
 }
+
 #header nav .nav-item .nav-link{
-    color: #ffffff;
     font-size: 16px;
+    color: #ffffff;
     font-weight: 400;
     padding: 20px;
     text-transform: uppercase;
-
 }
 #header nav .nav-item .nav-link:hover{
     color: #f44336;
@@ -48,37 +49,34 @@
 .sns-links{
     margin-left: 40px;
 }
-.sns-links a {
+.sns-links a{
     color: #ffffff;
     display: inline-block;
     margin-left: 10px;
 }
-.visual {
+.visual{
     height: 726px;
-    background: #fff url("../images/Rectangle.png") 0 0 / cover no-repeat;
+    background: #fff url("../images/Rectangle.png") 0 0 /cover  no-repeat;
     display: flex;
-    align-items: center;
+    align-items: center;;
 }
-
-.visual.text{
+.visual .text{
     max-width: 550px;
 }
-.visual.text .h1  {
+.visual .text h1{
     font-size: 53px;
     color: #ffffff;
     font-weight: 500;
     margin-bottom: 11px;
-
 }
-
-.visual.text p{
-    font-size: 18px;
+.visual .text p {
     color: #ffffff;
+    font-size: 18px;
     font-weight: normal;
-    line-height: normal;
+    line-height: 1.5;
     margin-bottom: 42px;
 }
-.visual.text a{
+.visual .text a{
     width: 179px;
     height: 54px;
     background: #f44336;
@@ -86,11 +84,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
+    transition: 2s;
 }
+.visual .text a:hover{
+    background: #7d211f;
+}
+.visual .text a i{
+    margin-right: 10px;
+}
+
 main{
     max-width: 1380px;
-    margin: -60px auto 0;
+    margin: -60px auto 0 ;
     border-radius: 6px;
     box-shadow: 0 2px 24px 0 rgba(0, 0, 0, 0.14), 0 8px 10px 0 rgba(0, 0, 0, 0.2);
     background-color: #ffffff;
@@ -98,9 +103,8 @@ main{
 }
 .main-section{
     padding-top: 95px;
-
 }
-.main-section header {
+.main-section header{
     text-align: center;
     margin-bottom: 80px;
 }
@@ -109,8 +113,9 @@ main{
     color: #333333;
     font-weight: normal;
 }
+
 .main-section header p{
-    font-size: 13px;
+    font-size: 18px;
     color: #999999;
     font-weight: 300;
     max-width: 723px;
@@ -119,22 +124,30 @@ main{
 }
 .main-section ul {
     display: flex;
+
 }
-.main-section ul li{
+.main-section ul li {
     flex: 1;
     padding: 0 30px;
 }
-.main-section ul li.item{
+
+.main-section ul li .item {
     text-align: center;
 }
-.main-section ul li.item img {
+
+.main-section ul li .item img {
     margin-bottom: 31px;
-
 }
-.main-section ul li.item h3{
-    font-size: 20px;
-    color: #333333;
-    margin-bottom: 18px;
-    font-weight:500;
 
+.main-section ul li .item h3 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 18px;
+    font-weight: 500;
+}
+
+.main-section ul li .item p {
+    color: #999;
+    font-weight: 300;
+    line-height: normal;
 }
